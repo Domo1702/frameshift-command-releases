@@ -2,20 +2,19 @@
 
 A Windows desktop companion for **Elite Dangerous: Odyssey**. Follow your Commander, ships, engineering materials, markets, exploration and Powerplay activity through live, read-only journal updates.
 
-**Current stable build: v0.10.0**
+**Current stable build: v0.10.1**
 
-[Download the Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.10.0/FrameShift.Command_0.10.0_x64-setup.exe) · [Release notes and assets](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.10.0) · [Latest stable release](https://github.com/Domo1702/frameshift-command-releases/releases/latest)
+[Download the Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.10.1/FrameShift.Command_0.10.1_x64-setup.exe) · [Release notes and assets](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.10.1) · [Latest stable release](https://github.com/Domo1702/frameshift-command-releases/releases/latest)
 
-## New in v0.10.0
+## New in v0.10.1
 
-- **Explorer & Exobiology:** journal-driven system and body analysis, route import/export, sampling progress, surface trackers and discovery-value estimates.
-- **Exobiology Intelligence:** Known/Predicted/Confirmed evidence, body analysis and recommended in-app targets, using 21 documented environmental species conditions.
-- **Optional Canonn reports:** consented system lookups, cached community sightings and offline fallback. Community reports remain distinct from your own confirmed discoveries.
-- **Discovery notices:** configurable three-second alerts inside FrameShift or at the top/bottom of a borderless/windowed game screen.
-- **Powerplay:** personal pledge, rank, merits and journal activity, locally observed systems, saved targets, notes and strategy tools.
-- **Material collection notices:** live dashboard feedback showing how much storage remains for each material collected.
+- **Current-system discoveries:** detailed coloured dashboard cards show all retained findings from your current visit in a compact scrollable area. Jumping hides previous visits; returning does not restore older notices.
+- **Grouped mining notices:** one notification per planet/body lists its rings, commodities, hotspot counts and evidence. Later findings update the card without another popup.
+- **Unified notification settings:** HGE, mining, Exobiology and Powerplay share app/game/Both/off delivery and 3/5/8-second preferences. App-only is the default; game overlay remains experimental.
+- **Quieter feedback:** Exobiology notices are green. Routine Powerplay merits, route recalculation and destination-arrival notices are silent; findings and supported potential-world notices remain.
+- **Powerplay intelligence:** optional separately consented EliteHub Vault reports with explicit coverage, source age and unknown-data labels.
 
-These features are combined in the stable application, alongside the existing dashboard, fleet, engineering, mining and market tools.
+Existing Explorer, Exobiology, fleet, engineering, material, mining and market features remain combined in the stable application.
 
 ## Main features
 
@@ -31,7 +30,7 @@ These features are combined in the stable application, alongside the existing da
 
 ## Install and connect
 
-1. Download **FrameShift.Command_0.10.0_x64-setup.exe** from this repository's release assets.
+1. Download **FrameShift.Command_0.10.1_x64-setup.exe** from this repository's release assets.
 2. Close FrameShift Command and run the installer.
 3. Launch **FrameShift Command**, then connect the detected journal folder or choose **Settings → Browse → Import & watch**.
 4. The usual folder is `%USERPROFILE%\Saved Games\Frontier Developments\Elite Dangerous`.
@@ -50,11 +49,11 @@ Builds through v0.1.24 need a manual installation of a newer updater-enabled bui
 ## Privacy and data
 
 - Commander records, inventory and imported journals are stored locally.
-- EDSM, Spansh, Canonn and on-demand AI features require their respective consent.
+- EDSM, Spansh, Canonn, EliteHub Vault and on-demand AI features require their respective consent.
 - Canonn biology lookups are off by default and send only the current system name/address, not your Commander name or journals.
 - AI Search is optional, requires your API key and separate sharing consent, and can incur provider charges. Windows Credential Manager stores the key.
 - Software-update requests do not upload Commander records or journals.
-- Production and the combined Preview app have separate data directories. Preview notes/preferences are not automatically copied into stable v0.10.0.
+- Production and the combined Preview app have separate data directories. Preview notes/preferences are not automatically copied into stable v0.10.1.
 - Use **Export SQLite backup** before replacing data or downgrading. Close the app before restoration and retain the original data until recovery is verified.
 
 ## Evidence and current limitations
@@ -63,18 +62,18 @@ HGE candidates are predictions, not guaranteed signals or material drops. Mining
 
 Exobiology estimates separate base values from a conditional first-logged bonus scenario. First footfall and bonus eligibility remain unverified; recorded journal sales are confirmed earnings. Unsupported species/variant rules and missing environmental inputs remain unknown.
 
-Powerplay tracks personal/local observations. An authorised galaxy-wide Powerplay 2 index and full cascade forecasts are unavailable.
+Powerplay retains journal and local observations, with optional separately consented EliteHub Vault reports. Provider coverage and null controllers remain explicit. No full cascade forecasts or unavailable vulnerability metrics are invented.
 
-Automated Windows tests cover notification lifecycle and placement. Automatic discovery triggering with Elite Dangerous actually in the foreground still requires live-game acceptance. Paid AI execution remains unverified.
+Packaged Windows tests cover application notifications, persistence and grouping. The optional game overlay remains experimental: actual-game foreground/fullscreen and physical multi-monitor behavior require live-game acceptance. Paid AI execution remains unverified.
 
 ## Release verification
 
-v0.10.0 passed TypeScript validation, **421 frontend tests, 79 Rust tests and 115 browser tests**, plus packaged Windows checks. An isolated upgrade from the real v0.9.1 executable preserved balances, inventory, ships, preferences and journal offsets. The older app detected and signature-verified the official v0.10.0 update; v0.10.0 correctly reports itself up to date.
+v0.10.1 passed TypeScript validation, **464 frontend tests, 80 Rust tests and 135 browser tests**, plus packaged Windows notification and persistence checks. An isolated real v0.10.0-to-v0.10.1 upgrade preserved balances, inventory, ships, preferences and journal offsets. The v0.10.0 updater detected and signature-verified the official v0.10.1 download; v0.10.1 correctly reports itself up to date.
 
 Installer SHA-256:
 
 ```text
-DC8C200C977A2B07D707024B3BC91AF8B2A464D90698F95E876A484FB90FEAC1
+3BCEF9C431B454DC5627391079B0E7E005069C130881AC6A7E306015C32E0E6D
 ```
 
 ## About this repository
