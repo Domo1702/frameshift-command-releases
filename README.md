@@ -1,8 +1,8 @@
 # FrameShift Command
 
-**Current stable: v0.10.2** — a Windows desktop companion for Elite Dangerous: Odyssey.
+**Current stable: v0.10.3** — a Windows desktop companion for Elite Dangerous: Odyssey.
 
-[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.10.2/FrameShift.Command_0.10.2_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.10.2)
+[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.10.3/FrameShift.Command_0.10.3_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.10.3)
 
 Existing updater-enabled installations can use **Settings → Check for updates → Update now**. Close FrameShift before running the manual installer. Microsoft WebView2 is required and can be downloaded by the installer. Node.js, Python and a separate server are not needed.
 
@@ -12,11 +12,11 @@ Existing updater-enabled installations can use **Settings → Check for updates 
 - Materials inventories, grade filters, watchlists, engineering shortages, trade planning, engineer progression and unlock guidance.
 - Fleet/loadouts, stored modules, fitting and engineering drafts, saved-build comparison, import/export and bundled artwork.
 - System/station search, HGE candidates with evidence and copy controls, mining locations, commodities, cargo-aware market searches and route planning.
-- A compact Explorer overview with grouped Findings, routes, sampling, surface trackers and unsold estimates. Prior-discovery markers distinguish previously discovered, undiscovered when scanned and unknown bodies.
+- A compact Explorer overview with grouped Findings, routes, sampling, surface trackers and unsold estimates. Prior-discovery markers distinguish previously discovered, undiscovered when scanned and unknown bodies. System route stops now show the same icons for the recorded arrival star, and multi-digit route numbers stay horizontal.
 - Exobiology predictions with 89 supported species, regional/environmental context and DSS narrowing. Predictions, tentative possibilities, community reports and personal observations remain distinct.
 - Powerplay journal activity, pledged-power portraits, saved targets/notes and optional consented community intelligence.
 
-The layout supports landscape and portrait windows, including 1080×960 half-screen use. v0.10.2 reduces repeated large-state processing and adds renderer recovery. The dashboard Exobiology square shows one current-system possibility notice and clears on jumping; detailed findings remain in Explorer. Popup windows are smaller, with existing delivery, position and duration settings preserved.
+The layout supports landscape and portrait windows, including 1080×960 half-screen use. v0.10.3 reduces repeated large-state processing and adds renderer recovery. The dashboard Exobiology square shows one current-system possibility notice and clears on jumping; detailed findings remain in Explorer. Popup windows are smaller, with existing delivery, position and duration settings preserved.
 
 ## Data and updates
 
