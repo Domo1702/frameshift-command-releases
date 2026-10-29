@@ -1,12 +1,14 @@
 # FrameShift Command
 
-**Current stable: v0.10.9** — a Windows desktop companion for Elite Dangerous: Odyssey.
+**Current stable: v0.10.10** — a Windows desktop companion for Elite Dangerous: Odyssey.
 
-[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.10.9/FrameShift.Command_0.10.9_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.10.9)
+[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.10.10/FrameShift.Command_0.10.10_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.10.10)
 
 Existing updater-enabled installations can use **Settings → Check for updates → Update now**. Close FrameShift before running the manual installer. Microsoft WebView2 is required and can be downloaded by the installer. Node.js, Python and a separate server are not needed.
 
 ## Included
+
+- FSS/DSS Exobiology overlays show only the body designation and supported species names. Full details remain in Explorer; unknown species stay unknown. Game cards omit journal/source footers. Popup durations are 3, 5 and 10 seconds, with old 8-second preferences migrated to 10.
 
 - Compact green sample-collection cards with organism/variant name, recorded progress, base estimate and conditional first-logged total (5× base). Eligibility stays unverified; payment requires full analysis and sale. Settings includes an independent switch, sample test, game placement/size/opacity and duration controls.
 
@@ -19,7 +21,7 @@ Existing updater-enabled installations can use **Settings → Check for updates 
 - Explorer route destination names use silver-grey for EDSM-known systems and soft copper-red for no returned community record, with subtle tints, labels and tooltips. Background checks use existing consent, six-hour caching, request pacing and replay isolation. Pending/error states remain neutral; journal discovery badges and Copy remain separate.
 - Powerplay journal activity, pledged-power portraits, saved targets/notes and optional consented community intelligence.
 
-The layout supports landscape and portrait windows, including 1080×960 half-screen use. v0.10.9 adds compact sample collection cards and removes duplicate sample-opportunity popup delays. Fresh sampling takes priority while older discoveries remain in history. EDSM route colours, workspace polish, rare goods and strict Exobiology matching are retained. The build retains renderer recovery. The dashboard Exobiology square shows one current-system possibility notice and clears on jumping; detailed findings remain in Explorer. Popup windows are smaller, with existing delivery, position and duration settings preserved.
+The layout supports landscape and portrait windows, including 1080×960 half-screen use. v0.10.10 adds compact sample collection cards and removes duplicate sample-opportunity popup delays. Fresh sampling takes priority while older discoveries remain in history. EDSM route colours, workspace polish, rare goods and strict Exobiology matching are retained. The build retains renderer recovery. The dashboard Exobiology square shows one current-system possibility notice and clears on jumping; detailed findings remain in Explorer. Popup windows are smaller, with existing delivery, position and duration settings preserved.
 
 ## Data and updates
 
