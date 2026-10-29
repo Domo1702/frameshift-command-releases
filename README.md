@@ -1,22 +1,22 @@
 # FrameShift Command
 
-**Current stable: v0.10.6** — a Windows desktop companion for Elite Dangerous: Odyssey.
+**Current stable: v0.10.7** — a Windows desktop companion for Elite Dangerous: Odyssey.
 
-[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.10.6/FrameShift.Command_0.10.6_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.10.6)
+[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.10.7/FrameShift.Command_0.10.7_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.10.7)
 
 Existing updater-enabled installations can use **Settings → Check for updates → Update now**. Close FrameShift before running the manual installer. Microsoft WebView2 is required and can be downloaded by the installer. Node.js, Python and a separate server are not needed.
 
 ## Included
 
 - Dashboard with Commander/Ship, Current System and Station panels, separate Mining/HGE/Exobiology discovery squares, live material-storage feedback and contextual search.
-- Materials inventories, grade filters, watchlists, engineering shortages, trade planning, engineer progression and unlock guidance.
+- Equal square material cards across Raw, Manufactured and Encoded, grades above artwork, separate Guardian/Thargoid rows, filters, watchlists, trade planning and engineer unlock guidance.
 - Fleet/loadouts, stored modules, fitting and engineering drafts, saved-build comparison, import/export and bundled artwork.
-- System/station search, HGE candidates with evidence and copy controls, mining locations, commodities, cargo-aware market searches and route planning.
+- System/station search with a polished Outfitting console; consistent Missions panels and compact rows; HGE candidates with evidence and Copy; mining, cargo-aware market searches and route planning. Commodities includes All / Rare / Standard search with 142 rare goods. Provider reports do not guarantee stock or allocations.
 - A compact Explorer overview with aligned Current System body/type/signal text and grouped Findings, routes, sampling, surface trackers and unsold estimates. Route discovery has visible Known / New / Unknown labels, with planet and arrival-star evidence explicitly distinguished. Multi-digit route numbers stay horizontal, and Copy retains the system-name action.
-- Exobiology matching audited across 91 Odyssey species using 10,609 OD API calls and 9,908 unique synthetic comparisons. One shared condition table drives display predictions and notifications. Unique supported DSS matches show Species inferred; personal biological identification remains distinct. Limaxus and Radicoida automatic inference is withheld for documented API anomalies. Missing data stays explicit, and actual discoveries remain visible.
+- Exobiology matching audited across 91 Odyssey species using 10,609 OD API calls and 9,908 unique synthetic comparisons. One shared condition table drives display predictions and notifications. Unique supported DSS matches show Species inferred; personal biological identification remains distinct. Limaxus and Radicoida automatic inference is withheld for documented API anomalies. Required composition, nebula distance, region, governing stars and material evidence must be known before automatic species naming. Missing inputs withhold inference; observed genera and actual discoveries remain visible. Electricae Radialem is withheld while nebula distance is unknown.
 - Powerplay journal activity, pledged-power portraits, saved targets/notes and optional consented community intelligence.
 
-The layout supports landscape and portrait windows, including 1080×960 half-screen use. v0.10.6 improves Explorer overview alignment, long-name handling and route discovery visibility. It retains the audited matching model and HMC Caputus correction. The build retains renderer recovery. The dashboard Exobiology square shows one current-system possibility notice and clears on jumping; detailed findings remain in Explorer. Popup windows are smaller, with existing delivery, position and duration settings preserved.
+The layout supports landscape and portrait windows, including 1080×960 half-screen use. v0.10.7 adds workspace polish, uniform material cards, rare commodity search and stricter required-condition matching. It retains Explorer route discovery labels and the HMC Caputus correction. The build retains renderer recovery. The dashboard Exobiology square shows one current-system possibility notice and clears on jumping; detailed findings remain in Explorer. Popup windows are smaller, with existing delivery, position and duration settings preserved.
 
 ## Data and updates
 
