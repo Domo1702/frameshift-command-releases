@@ -1,8 +1,8 @@
 # FrameShift Command
 
-**Current stable: v0.10.7** — a Windows desktop companion for Elite Dangerous: Odyssey.
+**Current stable: v0.10.8** — a Windows desktop companion for Elite Dangerous: Odyssey.
 
-[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.10.7/FrameShift.Command_0.10.7_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.10.7)
+[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.10.8/FrameShift.Command_0.10.8_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.10.8)
 
 Existing updater-enabled installations can use **Settings → Check for updates → Update now**. Close FrameShift before running the manual installer. Microsoft WebView2 is required and can be downloaded by the installer. Node.js, Python and a separate server are not needed.
 
@@ -14,9 +14,10 @@ Existing updater-enabled installations can use **Settings → Check for updates 
 - System/station search with a polished Outfitting console; consistent Missions panels and compact rows; HGE candidates with evidence and Copy; mining, cargo-aware market searches and route planning. Commodities includes All / Rare / Standard search with 142 rare goods. Provider reports do not guarantee stock or allocations.
 - A compact Explorer overview with aligned Current System body/type/signal text and grouped Findings, routes, sampling, surface trackers and unsold estimates. Route discovery has visible Known / New / Unknown labels, with planet and arrival-star evidence explicitly distinguished. Multi-digit route numbers stay horizontal, and Copy retains the system-name action.
 - Exobiology matching audited across 91 Odyssey species using 10,609 OD API calls and 9,908 unique synthetic comparisons. One shared condition table drives display predictions and notifications. Unique supported DSS matches show Species inferred; personal biological identification remains distinct. Limaxus and Radicoida automatic inference is withheld for documented API anomalies. Required composition, nebula distance, region, governing stars and material evidence must be known before automatic species naming. Missing inputs withhold inference; observed genera and actual discoveries remain visible. Electricae Radialem is withheld while nebula distance is unknown.
+- Explorer route destination names use silver-grey for EDSM-known systems and soft copper-red for no returned community record, with subtle tints, labels and tooltips. Background checks use existing consent, six-hour caching, request pacing and replay isolation. Pending/error states remain neutral; journal discovery badges and Copy remain separate.
 - Powerplay journal activity, pledged-power portraits, saved targets/notes and optional consented community intelligence.
 
-The layout supports landscape and portrait windows, including 1080×960 half-screen use. v0.10.7 adds workspace polish, uniform material cards, rare commodity search and stricter required-condition matching. It retains Explorer route discovery labels and the HMC Caputus correction. The build retains renderer recovery. The dashboard Exobiology square shows one current-system possibility notice and clears on jumping; detailed findings remain in Explorer. Popup windows are smaller, with existing delivery, position and duration settings preserved.
+The layout supports landscape and portrait windows, including 1080×960 half-screen use. v0.10.8 adds Explorer route community-coverage colours while retaining workspace polish, uniform material cards, rare commodity search and strict Exobiology matching. The build retains renderer recovery. The dashboard Exobiology square shows one current-system possibility notice and clears on jumping; detailed findings remain in Explorer. Popup windows are smaller, with existing delivery, position and duration settings preserved.
 
 ## Data and updates
 
@@ -31,3 +32,5 @@ Before downgrading, retain a private backup of the production data directory sho
 Elite Dangerous and associated game assets belong to Frontier Developments. FrameShift Command is an independent companion application.
 
 Discovery labels describe prior discovery when the scan was recorded. New does not guarantee a first-footfall bonus; Unknown is never presented as undiscovered. Copy continues to copy the destination system name.
+
+Route colours describe EDSM coverage: no record does not prove nobody visited, and a known record does not establish full exploration. Enable Allow EDSM system lookups in Settings. Only destination system names are sent.
