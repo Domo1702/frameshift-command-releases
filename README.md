@@ -1,17 +1,17 @@
 # FrameShift Command
 
-**Current stable: v0.11.1** — a Windows desktop companion for Elite Dangerous: Odyssey.
+**Current stable: v0.12.0** — a Windows desktop companion for Elite Dangerous: Odyssey.
 
-[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.11.1/FrameShift.Command_0.11.1_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.11.1)
+[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.12.0/FrameShift.Command_0.12.0_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.12.0)
 
 Existing updater-enabled installations can use **Settings → Check for updates → Update now**. Close FrameShift before running the manual installer. Microsoft WebView2 is required and can be downloaded by the installer. Node.js, Python and a separate server are not needed.
 
-## New in v0.11.1
+## New in v0.12.0
 
-- **Live Mining cockpit:** latest prospector composition, content, reported core and remaining snapshot; ship cargo/fuel/pips/firegroup/hardpoints; configured mining tools; refined units and pickup history; bounded sessions and reset controls. Existing Locations & Searches remain available.
-- **Combat Operations:** staged scanned targets, matching ship artwork, shield state and last-reported own hull, expiring warnings, recent scans, configured weapons, session activity and independent bounty/bond awards and redemptions.
-- **Optional cockpit alerts and speech:** the existing app/game notification and Windows/Kokoro scheduler handle selected cores, composition, cargo, heat, shield, hull and combat awards. Mining uses its configured voice; Combat uses Other. New cockpit alerts and speech are off by default.
-- **Responsive operational cards:** landscape, portrait and 1080×960 half-screen layouts with scrolling. Unsupported heat percentages, refinery bins, active collectors and live radar stay unavailable. Price estimates require dated recorded market data.
+- Navigation workspace: saved carrier and neutron/galaxy ordered routes, journal-driven progress, copy-next controls, fuel budgets, optional announcements and an independent movable navigation HUD. Guidance never operates the game.
+- Import completed Spansh Neutron and Fleet Carrier routes directly from JSON (recommended) or English CSV. Inspect the unsaved preview, then save and activate after review. Sparse neutron waypoints stay distinct from complete carrier jump lists. Direct online route calculation is not included.
+- Live Mining sale estimates now match Frontier commodity symbols, exclude limpets and support dated historical, explicitly fetched and manual prices. Partial estimates remain labelled. Collector launches now provide a timed estimate with expiry, including the Mk II mining controller; early destruction is not observable.
+- Guardian and Thargoid materials display clear owned counts. Valid journal-only materials missing from the catalogue also appear. Unverified grades, limits and free-space percentages stay unknown.
 
 ## Included
 
@@ -36,7 +36,7 @@ Predictions do not guarantee signals, organisms, drops or sale proceeds. Cartogr
 
 Game overlays target windowed/borderless mode. Game-closed carrier display/countdown passed packaged checks. Actual-game exclusive fullscreen and physical overlay dragging/passthrough retain manual acceptance limits. App-only discovery notifications are the default. Carrier desktop-overlay visibility is independent of game focus.
 
-The cockpit implementation passed 691 frontend tests, 141 Rust tests (two ignored), 224 distinct browser cases across the full run/rechecks, and packaged synthetic journal acceptance. Release-specific signed-build, production upgrade and updater verification accompany v0.11.1.
+The combined release is verified with frontend/backend tests, responsive browser checks, packaged synthetic journal acceptance, production upgrade checks and original-key signed updater verification. Actual gameplay, physical monitor/DPI and audible audio acceptance remain manual.
 
 This public repository contains stable installers, detached updater signatures and `latest.json`; application source remains private. Downloads require no GitHub account. The updater verifies artifacts against the original application signing key before installation. Windows Authenticode signing is not configured. No installer is executed automatically during release validation.
 
