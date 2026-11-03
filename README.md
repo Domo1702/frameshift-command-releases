@@ -1,17 +1,18 @@
 # FrameShift Command
 
-**Current stable: v0.12.0** — a Windows desktop companion for Elite Dangerous: Odyssey.
+**Current stable: v0.12.1** — a Windows desktop companion for Elite Dangerous: Odyssey.
 
-[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.12.0/FrameShift.Command_0.12.0_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.12.0)
+[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.12.1/FrameShift.Command_0.12.1_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.12.1)
 
 Existing updater-enabled installations can use **Settings → Check for updates → Update now**. Close FrameShift before running the manual installer. Microsoft WebView2 is required and can be downloaded by the installer. Node.js, Python and a separate server are not needed.
 
-## New in v0.12.0
+## New in v0.12.1
 
-- Navigation workspace: saved carrier and neutron/galaxy ordered routes, journal-driven progress, copy-next controls, fuel budgets, optional announcements and an independent movable navigation HUD. Guidance never operates the game.
-- Import completed Spansh Neutron and Fleet Carrier routes directly from JSON (recommended) or English CSV. Inspect the unsaved preview, then save and activate after review. Sparse neutron waypoints stay distinct from complete carrier jump lists. Direct online route calculation is not included.
-- Live Mining sale estimates now match Frontier commodity symbols, exclude limpets and support dated historical, explicitly fetched and manual prices. Partial estimates remain labelled. Collector launches now provide a timed estimate with expiry, including the Mk II mining controller; early destruction is not observable.
-- Guardian and Thargoid materials display clear owned counts. Valid journal-only materials missing from the catalogue also appear. Unverified grades, limits and free-space percentages stay unknown.
+- Simple Route Planner: import a completed Spansh Neutron or Fleet Carrier JSON/CSV file, save it in the route library and track arrivals. Next-system copying, progress and pause/resume stay prominent; extra planner modes and manual route forms are removed. Rename, export and progress corrections are tucked under Route actions.
+- Full-width My Ship combat panel: live status, selected fire group, power distribution, hardpoints, fuel/cargo and grouped recorded ammunition. Hull is last reported; shield charge and firing consumption remain unavailable where the game does not report them.
+- Combat cards can be rearranged and hidden without empty spaces. Their saved order is separate for each Commander and replay.
+- Combat session totals and duration continue through normal travel. Starting an already running session preserves its awards; completed summaries remain in History.
+- Improved isolated ship artwork, blue loadout schematics and a new Federal Corvette illustration, retaining the active hull identity.
 
 ## Included
 
