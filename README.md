@@ -1,24 +1,22 @@
 # FrameShift Command
 
-**Current stable: v0.12.1** — a Windows desktop companion for Elite Dangerous: Odyssey.
+**Current stable: v0.12.2** — a Windows desktop companion for Elite Dangerous: Odyssey.
 
-[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.12.1/FrameShift.Command_0.12.1_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.12.1)
+[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.12.2/FrameShift.Command_0.12.2_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.12.2)
 
 Existing updater-enabled installations can use **Settings → Check for updates → Update now**. Close FrameShift before running the manual installer. Microsoft WebView2 is required and can be downloaded by the installer. Node.js, Python and a separate server are not needed.
 
-## New in v0.12.1
+## New in v0.12.2
 
-- Simple Route Planner: import a completed Spansh Neutron or Fleet Carrier JSON/CSV file, save it in the route library and track arrivals. Next-system copying, progress and pause/resume stay prominent; extra planner modes and manual route forms are removed. Rename, export and progress corrections are tucked under Route actions.
-- Full-width My Ship combat panel: live status, selected fire group, power distribution, hardpoints, fuel/cargo and grouped recorded ammunition. Hull is last reported; shield charge and firing consumption remain unavailable where the game does not report them.
-- Combat cards can be rearranged and hidden without empty spaces. Their saved order is separate for each Commander and replay.
-- Combat session totals and duration continue through normal travel. Starting an already running session preserves its awards; completed summaries remain in History.
-- Improved isolated ship artwork, blue loadout schematics and a new Federal Corvette illustration, retaining the active hull identity.
+- Compact 88-pixel material cards across Raw, Manufactured, Encoded, Guardian and Thargoid rows. Grade above the icon, material name and owned/maximum count stay visible; card progress bars are removed. Existing tabs, filters, family headings, favorites and details are retained.
+- Correct material bundle overflow: when 199 of 200 slots are occupied, a three-unit pickup accepts one. Later crafting, trades and rewards use the corrected inventory.
+- One-time retained-journal inventory repair corrects saved over-counts and subsequent consumption. Full journal snapshots remain authoritative; unverified special-material limits remain unknown. Other Commander state, layouts, consent and journal offsets are preserved.
 
 ## Included
 
 - Fleet Carrier overview/services/history and its independent desktop jump overlay; optional offline Windows voices and 28 Kokoro English voices with saved category assignments.
 - Commander/Ship, Current System and Station dashboard panels; contextual search and live material-storage feedback.
-- Consistent material cards with grades, separate Guardian/Thargoid rows, filters, watchlists, trade planning and engineer progression/unlock guidance.
+- Compact material cards with grades and clear owned/maximum counts, separate Guardian/Thargoid rows, filters, watchlists, trade planning and engineer progression/unlock guidance.
 - Recorded fleet/loadouts, stored modules, fitting and engineering drafts, saved-build comparison, import/export and bundled artwork.
 - System/station and Outfitting search, mission panels, HGE candidates with evidence and Copy, asteroid/planetary mining, cargo-aware commodity markets and trade planning. Commodities supports All / Rare / Standard searches with 142 rare goods; reported stock is not guaranteed.
 - Compact Explorer overview, routes, grouped Exobiology findings, sampling, surface trackers, unsold Cartographic/Exobiology estimates and history. Known / New / Unknown route labels distinguish community coverage from personal scan evidence. Multi-digit route numbers and Copy remain readable.
