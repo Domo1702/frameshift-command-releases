@@ -1,10 +1,16 @@
 # FrameShift Command
 
-**Current stable: v0.12.2** — a Windows desktop companion for Elite Dangerous: Odyssey.
+**Current stable: v0.12.3** — a Windows desktop companion for Elite Dangerous: Odyssey.
 
-[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.12.2/FrameShift.Command_0.12.2_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.12.2)
+[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.12.3/FrameShift.Command_0.12.3_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.12.3)
 
-Existing updater-enabled installations can use **Settings → Check for updates → Update now**. Close FrameShift before running the manual installer. Microsoft WebView2 is required and can be downloaded by the installer. Node.js, Python and a separate server are not needed.
+Existing updater-enabled installations can use **Update now** when the update banner appears. In v0.12.3, manual checks are under **Settings → Data & Updates → Application Updates**. Close FrameShift before running the manual installer. Microsoft WebView2 is required and can be downloaded by the installer. Node.js, Python and a separate server are not needed.
+
+## New in v0.12.3
+
+- Settings uses seven categories and opens one section at a time. Notification delivery, discovery alerts and game overlay controls have separate sections.
+- **Settings → Integrations → Elite Intel** offers an optional local connection for opening FrameShift pages. It starts off and requires the companion's page-control extension.
+- **Settings → Data & Updates** groups application updates, backups, diagnostics and build information.
 
 ## New in v0.12.2
 
