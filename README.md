@@ -1,10 +1,16 @@
 # FrameShift Command
 
-**Current stable: v0.12.3** — a Windows desktop companion for Elite Dangerous: Odyssey.
+**Current stable: v0.12.4** — a Windows desktop companion for Elite Dangerous: Odyssey.
 
-[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.12.3/FrameShift.Command_0.12.3_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.12.3)
+[Download Windows x64 installer](https://github.com/Domo1702/frameshift-command-releases/releases/download/v0.12.4/FrameShift.Command_0.12.4_x64-setup.exe) · [Release notes and signatures](https://github.com/Domo1702/frameshift-command-releases/releases/tag/v0.12.4)
 
-Existing updater-enabled installations can use **Update now** when the update banner appears. In v0.12.3, manual checks are under **Settings → Data & Updates → Application Updates**. Close FrameShift before running the manual installer. Microsoft WebView2 is required and can be downloaded by the installer. Node.js, Python and a separate server are not needed.
+Existing updater-enabled installations can use **Update now** when the update banner appears. In v0.12.4, manual checks are under **Settings → Data & Updates → Application Updates**. Close FrameShift before running the manual installer. Microsoft WebView2 is required and can be downloaded by the installer. Node.js, Python and a separate server are not needed.
+
+## New in v0.12.4
+
+- Closing the main window now exits FrameShift and its overlay windows.
+- Elite Intel can open named tabs in Materials, Commodities, Engineering, Ships & Builds, Explorer and Fleet Carrier.
+- The optional Windows connection uses a compatible local Elite Intel build. The tested Elite Intel Integration Preview accepts FrameShift's packaged WebView connection.
 
 ## New in v0.12.3
 
